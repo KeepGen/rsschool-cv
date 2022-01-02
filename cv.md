@@ -6,6 +6,7 @@
 * Location: Chisinau, Moldova
 * Tel: +37360055446
 * Email: keeper.gen@gmail.com
+* Discord RS-School Name: Alex Kostin (@keepgen)
 * GitHub: https://github.com/KeepGen
 
 ## About me
