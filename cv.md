@@ -1,6 +1,6 @@
 ![Photo: Kostin Alex](images/photo.png)
 # Kostin Alex
-***Front-End Developer***
+***Web Developer***
 
 ## Contacts
 * Location: Chisinau, Moldova
