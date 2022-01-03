@@ -74,8 +74,10 @@ html {
 }
 
 .about__photo {
-    width: 200px;
-    height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
 }
 
 .about__photo_image {
@@ -88,9 +90,88 @@ html {
 
 .about__info {
     padding-left: 30px;
-    width: fit-content;
 }
 
 .about__info_role {
     margin-bottom: 20px;
 }
+
+.contacts {
+    margin: 20px 0;
+}
+
+.contacts__list_item {
+    margin-bottom: 10px;
+}
+
+.contacts__list_item a {
+    color: #232323;
+}
+
+.contacts__list_item a:hover {
+    color: #232323;
+    text-decoration: none;
+}
+
+.contacts__list_item span {
+    font-weight: 700;
+    background-color: #ffd500;
+    padding: 0 10px;
+}
+
+.skills__list_item {
+    margin-bottom: 10px;
+}
+
+.skills__list_item span {
+    font-weight: 700;
+}
+
+.code code {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 0 20px 20px;
+    background-color: #d7d7d7;
+}
+
+.code pre {
+    white-space: pre-line;
+}
+
+.education__info {
+    margin: 20px 0;
+}
+
+.education__info p {
+    margin: 5px;
+}
+
+.education__info_year {
+    display: inline-block;
+    background-color: #ffd500;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.education__info_place {
+    margin-left: 40px !important;
+}
+
+.work__info {
+    margin: 30px 0;
+}
+
+.work__info p {
+    margin: 10px 0;
+}
+
+.work__info_year {
+    background-color: #ffd500;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.work__info_place {
+    margin-left: 40px !important;
+}
+
