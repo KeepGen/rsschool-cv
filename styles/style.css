@@ -135,6 +135,18 @@ html {
     white-space: pre-line;
 }
 
+.projects__list_item {
+    margin-bottom: 10px;
+}
+
+.projects__list_item a {
+    color: #232323;
+}
+
+.projects__list_item a:hover {
+    text-decoration: none;
+}
+
 .education__info {
     margin: 20px 0;
 }
