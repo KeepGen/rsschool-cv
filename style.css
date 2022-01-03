@@ -64,9 +64,8 @@ html {
 }
 
 .main {
-    min-height: 2500px;
     background-color: #e7e7e7;
-    padding: 100px 0 20px;
+    padding: 100px 0 0 0;
 }
 
 .about {
@@ -175,3 +174,28 @@ html {
     margin-left: 40px !important;
 }
 
+.languages__list_item {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.languages__list_item span {
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #d3d3d3;
+}
+
+.footer__rsslogo_img {
+    width: 100px;
+}
+
+.footer__githublogo_img {
+    width: 50px;
+}
